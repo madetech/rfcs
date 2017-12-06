@@ -10,7 +10,7 @@ Off the back of the Deep Work retro hosted by Chris, we had common consensus tha
 
 To get round that we've created a new channel, #common-room for any chatter, and renamed general to announcements.
 
-There is a lot of ambiguity about what content is suitable for the new channel.
+There is a lot of ambiguity about what content is suitable for the announcements channel.
 
 ## Proposal
 
@@ -21,8 +21,7 @@ In order to keep the channel "clean" any replies should go into a thread for tha
 Types of content for announcements;
 
 - PRs for Handbook and RFCs
-- Holiday requests
-- WFH requests
+- Holiday announcements
+- WFH announcements
 - Sickness
 - Lateness
-- Tea/Coffee
