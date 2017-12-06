@@ -16,7 +16,7 @@ There is a lot of ambiguity about what content is suitable for the new channel.
 
 All content in #announcements should be a notification/message that everyone should have visibility on.
 
-In order to keep the channel "clean" any replies carried out in a thread.
+In order to keep the channel "clean" any replies should go into a thread for that post.
 
 Types of content for announcements;
 
