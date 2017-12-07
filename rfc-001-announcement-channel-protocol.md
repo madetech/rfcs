@@ -26,3 +26,4 @@ Types of content for announcements;
 - Sickness
 - Lateness
 - TGIF requests
+- Polls
