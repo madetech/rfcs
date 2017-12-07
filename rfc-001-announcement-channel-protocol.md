@@ -25,3 +25,4 @@ Types of content for announcements;
 - WFH announcements
 - Sickness
 - Lateness
+- TGIF announcements
