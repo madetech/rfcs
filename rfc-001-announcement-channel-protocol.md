@@ -27,3 +27,4 @@ Types of content for announcements;
 - Lateness
 - TGIF requests
 - Polls
+- 121 feedback requests
