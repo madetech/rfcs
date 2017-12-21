@@ -24,7 +24,7 @@ Further reading:
 
 An element of shallow work is necessary for most roles within the business. Customers need to be conversed with, emails (sometimes) need to be answered, it's fun and rewarding to chat with peers on Slack.
 
-In their next 121, every member of the team collates a Deep Work plan. Thie involves the team member identifying the tasks that they typically need to perform in the week. The team member then suggests an optimal ratio between deep and shallow work for them to optimally perform their role.
+In their next 121, every member of the team collates a Deep Work plan. This involves the team member identifying the tasks that they typically need to perform in the week. The team member then suggests an optimal ratio between deep and shallow work for them to optimally perform their role.
 
 As part of the Delivery Healthcheck that teams will be reporting on from next year, deep work for all members of the team will tracked according to the individuals ideal ratio.
 
