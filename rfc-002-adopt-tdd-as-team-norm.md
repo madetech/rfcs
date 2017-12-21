@@ -27,3 +27,10 @@ Test Driven Development is defined as a discipline with three rules:
 2. You MUST not write more of a test than is sufficient to fail, or fail to compile.
 3. You MUST not write more production code than is sufficient to make the currently failing test pass.
 
+TDD relies on quick feedback cycles, therefore Delivery Teams SHOULD make it possible to run individual test suites within the ecosystem of an application in under 30 seconds. Furthermore, it SHOULD be possible to run the test suites of an entire application in under 5 minutes. If this time limit is exceeded, Delivery Teams SHOULD plan in effort to reduce test suite run times. 
+
+Any code that cannot be automatically tested i.e. code that applies visual styles to a UI, SHOULD NOT be tested or TDD'ed.
+
+You MAY choose to not TDD any code which does not get more generic as you write more specific tests e.g. application configuration, state machines, etc. This code MUST still be tested for regression purposes.
+
+Server-side rendered UI MUST be covered by automated regression tests, but you MAY choose to not TDD this code.
