@@ -12,4 +12,4 @@ Not controlling WiP will result in throughput issues.
 
 ## Proposal
 
-All teams MUST visualize the flow of work on a Kanban-board.
+All teams SHOULD visualize the flow of work on a Kanban-board.
