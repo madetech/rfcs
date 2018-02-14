@@ -6,7 +6,7 @@ The support team must be involved in the decision making where major technology 
 
 ## Problem
 
-Currently the support team are expected to provide both BAU support, and offer improvements to any platforms that delivery teams ship.
+Currently the support team are expected to provide both BAU support, and offer improvements to any platforms that delivery teams ship. Where less understood technologies are introduced in to supported applications, this increases the burden on the support team, both in the hours needed to service the running of the application, and in the on-boarding of support team members.
 
 ## Proposal
 
