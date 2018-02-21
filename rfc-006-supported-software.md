@@ -14,4 +14,6 @@ Delivery teams should be empowered to embrace newer technologies where there is 
 
 The support team should expect to not be burdened with supporting unknown platforms without having input in to the decision making.
 
+Before proceeding with any implementation, the delivery team and support team MUST be in agreement that the proposed technology can be supported. 
+
 The support team publishes a list of software and platforms (to the granularity of "Python", "Elasticsearch", or "Cloud Foundry") that they currently have capability to support. Where teams wish to deviate from this, and where we need to provide ongoing support, teams MUST involve the support team in the decision making.
