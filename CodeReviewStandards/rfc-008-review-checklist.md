@@ -18,9 +18,8 @@ Before raising a pull request, the pull request SHOULD meet the following criter
  - [ ] Code follows project specific conventions
  - [ ] Code has been refactored with quality and readability in mind
  - [ ] Tests are obviously the product of practising TDD (where appropriate)
- - [ ] Testing strategy meets all requirements
  - [ ] There are high level feature/acceptance tests in place as appropriate
- - [ ] Tests have been refactored for quality
+ - [ ] Tests have been refactored - aim for quality, readability and maintainability
  - [ ] Tests all pass and the change satisfies the goal of _why the change was made_
 
 When reviewing a pull request, reviewer SHOULD consider at least the following questions:
@@ -31,14 +30,15 @@ When reviewing a pull request, reviewer SHOULD consider at least the following q
  - [ ] Is the code readable?
  - [ ] Is the code maintainable?
  - [ ] Are there any gaps or potential issues to be found in the testing strategy? Are the tests _sane_?
+ - [ ] Review comments follow standard outlined in [rfc-007](rfc-007-code-review-comments.md)
 
 Universal Pull Request Checklist - all pull requests MUST meet the following criteria
 
 - [ ] Before merging, summarise any offline discussion of review comments (why a change may or may not be implemented) to aid future reference
 - [ ] SHOULD avoid branching from branches, branch from origin/master where possible
-- [ ] SUGGEST commit history can be rebased into a single commit
+- [ ] SUGGEST commit history can be rebased into meaningful commits
 - [ ] SUGGEST if commit history is too large to rebase into a single commit, multiple pull requests may be desirable
-- [ ] Commit messages are descriptive, accurate and spell-checked
-- [ ] It is the author of the pull requests responsibility to merge the pull request
+- [ ] Commit messages are descriptive, accurate and spell-checked. See [here](https://chris.beams.io/posts/git-commit/)
+- [ ] It is the author of the pull request's responsibility to merge the pull request
 - [ ] Pull requests MUST have approval of at least one reviewer before merging
 - [ ] After merging, delete the branch
