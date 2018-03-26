@@ -13,12 +13,13 @@ Pull requests follow no set format and vary between projects, which in turn caus
 Before raising a pull request, the pull request SHOULD meet the following criteria:
  - [ ] Pull request description outlines _what has changed_
  - [ ] Pull request description outlines _why the change was made_
- - [ ] Linting is correct - linter reports no issues
+ - [ ] If the project has a linter, it SHOULD not report any issues with the pull request
  - [ ] Code follows language specific conventions
  - [ ] Code follows project specific conventions
  - [ ] Code has been refactored with quality and readability in mind
- - [ ] Testing is complete in coverage
+ - [ ] Tests are obviously the product of practising TDD (where appropriate)
  - [ ] Testing strategy meets all requirements
+ - [ ] There are high level feature/acceptance tests in place as appropriate
  - [ ] Tests have been refactored for quality
  - [ ] Tests all pass and the change satisfies the goal of _why the change was made_
 
