@@ -11,6 +11,7 @@ Pull requests follow no set format and vary between projects, which in turn caus
 ## Proposal
 
 Before raising a pull request, the pull request SHOULD meet the following criteria:
+
  - [ ] Pull request description outlines _what has changed_
  - [ ] Pull request description outlines _why the change was made_
  - [ ] If the project has a linter, it SHOULD not report any issues with the pull request
@@ -20,7 +21,7 @@ Before raising a pull request, the pull request SHOULD meet the following criter
  - [ ] Tests are obviously the product of practising TDD (where appropriate)
  - [ ] There are high level feature/acceptance tests in place as appropriate
  - [ ] Tests have been refactored - aim for quality, readability and maintainability
- - [ ] Tests all pass and the change satisfies the goal of _why the change was made_
+ - [ ] Test suite shows that the change has been tested to adequate confidence.
 
 When reviewing a pull request, reviewer SHOULD consider at least the following questions:
 
