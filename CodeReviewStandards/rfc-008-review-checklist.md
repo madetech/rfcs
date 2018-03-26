@@ -28,6 +28,7 @@ When reviewing a pull request, reviewer SHOULD consider at least the following q
  - [ ] Does the code achieve the goal outlined in _why the change was made_?
  - [ ] Could the change have been implemented using a different strategy that would be a credible alternative? If so, why would the alternative be better?
  - [ ] Does the code follow all of the testing and standards requirements in the pre-review checklist?
+ - [ ] Does the code introduce unnecessary additional complexity or lengthy test cycles?
  - [ ] Is the code readable?
  - [ ] Is the code maintainable?
  - [ ] Are there any gaps or potential issues to be found in the testing strategy? Are the tests _sane_?
