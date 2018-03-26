@@ -32,7 +32,7 @@ When reviewing a pull request, reviewer SHOULD consider at least the following q
  - [ ] Is the code readable?
  - [ ] Is the code maintainable?
  - [ ] Are there any gaps or potential issues to be found in the testing strategy? Are the tests _sane_?
- - [ ] Review comments follow standard outlined in [rfc-007](rfc-007-code-review-comments.md)
+ - [ ] Do your review comments follow standard outlined in [rfc-007](rfc-007-code-review-comments.md)?
 
 Universal Pull Request Checklist - all pull requests MUST meet the following criteria
 
