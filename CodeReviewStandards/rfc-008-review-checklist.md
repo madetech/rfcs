@@ -15,8 +15,8 @@ Before raising a pull request, the pull request SHOULD meet the following criter
  - [ ] Pull request description outlines _what has changed_
  - [ ] Pull request description outlines _why the change was made_
  - [ ] If the project has a linter, it SHOULD not report any issues with the pull request
- - [ ] Code follows language specific conventions
- - [ ] Code follows project specific conventions
+ - [ ] Code follows project specific coding conventions
+ - [ ] Code follows language specific conventions in the absence of a project specific convention
  - [ ] Code has been refactored with quality and readability in mind
  - [ ] Tests are obviously the product of practising TDD (where appropriate)
  - [ ] There are high level feature/acceptance tests in place as appropriate
