@@ -16,3 +16,5 @@ Teams must publish, to a centralised location, links to details on how any Made 
 
 In situations where NDAs preclude providing transparent access to codebases, there must be a document that outlines this and reasons why. 
 If appropriate, teams should include steps that can be taken to gain access in these circumstances.
+
+In situations where customers control the access to the version control systems, and may be unwilling to add the entire Made Tech team, we should use GitHub forking (or similar) feature to provide transparency to the Made Tech team.
