@@ -10,7 +10,7 @@ Pull requests follow no set format and vary between projects, which in turn caus
 
 ## Proposal
 
-Before raising a pull request, the pull request SHOULD meet the following criteria:
+Before raising a pull request, consider this checklist:
 
  - [ ] Pull request description outlines _what has changed_
  - [ ] Pull request description outlines _why the change was made_
@@ -23,18 +23,18 @@ Before raising a pull request, the pull request SHOULD meet the following criter
  - [ ] Tests have been refactored - aim for quality, readability and maintainability
  - [ ] Test suite shows that the change has been tested to adequate confidence.
 
-When reviewing a pull request, reviewer SHOULD consider at least the following questions:
+When reviewing a pull request, consider this checklist:
 
  - [ ] Does the code achieve the goal outlined in _why the change was made_?
  - [ ] Could the change have been implemented using a different strategy that would be a credible alternative? If so, why would the alternative be better?
  - [ ] Does the code follow all of the testing and standards requirements in the pre-review checklist?
  - [ ] Does the code introduce unnecessary additional complexity or lengthy test cycles?
- - [ ] Is the code readable?
- - [ ] Is the code maintainable?
+ - [ ] Could I suggest changes that would make the code more readable?
+ - [ ] Could I suggest changes that would make the code more maintainable?
  - [ ] Are there any gaps or potential issues to be found in the testing strategy? Are the tests _sane_?
  - [ ] Do your review comments follow standard outlined in [rfc-007](rfc-007-code-review-comments.md)?
 
-Universal Pull Request Checklist - all pull requests MUST meet the following criteria
+Universal Pull Request Checklist:
 
 - [ ] Before merging, summarise any offline discussion of review comments (why a change may or may not be implemented) to aid future reference
 - [ ] SHOULD avoid branching from branches, branch from origin/master where possible
