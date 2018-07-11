@@ -46,5 +46,7 @@ If the base rules of a .editorconfig are changed, they **MUST** be justified wit
 
 Developers **SHOULD** install a plugin for editorconfig when one is available to them.
 
+If you use an editor that does not support .editorconfig, then you **MUST** configure the editor in such a way that mirrors the project's .editorconfig rules
+
 
 [1]: https://editorconfig.org/
