@@ -18,28 +18,28 @@ how things are set up to know what specific commands to run.
 
 ## Proposal
 
-All projects MUST have a Makefile.
+All projects **MUST** have a Makefile.
 
-All projects must have relevant [`PHONY` targets](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html)
+All projects **MUST** have relevant [`PHONY` targets](https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html)
 
-**All** projects MUST have the commands:
+**All** projects **MUST** have the commands:
 - `make test`
   - Runs the tests for the project
-  - This SHOULD run the tests in a 'watch' mode (e.g. [Guard](https://github.com/guard/guard))
-  - This MAY have optional arguments for running a specific test/file
+  - This **SHOULD** run the tests in a 'watch' mode (e.g. [Guard](https://github.com/guard/guard))
+  - This **MAY** have optional arguments for running a specific test/file
 - `make setup`
   - Runs the setup for the project
   - E.g. Runs `docker-compose build`
 
-If the project is a **web application** it MUST have the commands:
+If the project is a **web application** it **MUST** have the commands:
 - `make serve` 
   - Runs the development version of the application, e.g. Running `docker-compose up`
 
-If the project is an application which needs compiling for deployment it MUST have the commands:
+If the project is an application which needs compiling for deployment it **MUST** have the commands:
 - `make build`
   - Builds the application for production
 
-If the project runs in **Docker** - it MUST have the commands:
+If the project runs in **Docker** - it **MUST** have the commands:
 - `make docker-build` 
   - Builds the Docker image for the project
 - `make docker-down`
