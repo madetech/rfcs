@@ -6,7 +6,7 @@ A set of standards to be used for projects that will be shared within Made Tech 
 
 ## Problem
 
-Made Tech code repositories (to be referred to as repos herein) do not have a common look and feel.
+As an engineer who is maintaining a project, I want some set of documentation/features I can depend on being there so it is quicker for me to get started and I don't have to get answers from the original team.
 
 ## Visibility
 
@@ -33,7 +33,7 @@ The following headings **SHOULD** be considered the absolute minimum to include 
 
 #### Table of Contents
 
-If the `README.md` scrolls i.e. the entire document is not visible on screen you **MAY** need to include a table of contents. 
+If the `README.md` is greater than 25 lines in length you **SHOULD** need to include a table of contents.
 
 This can be automated using the following editor extensions/plugins/layers:
 
