@@ -25,7 +25,7 @@ All projects **MUST** have relevant [`PHONY` targets](https://www.gnu.org/softwa
 **All** projects **MUST** have the commands:
 - `make test`
   - Runs the tests for the project
-  - This **SHOULD** run the tests in a 'watch' mode (e.g. [Guard](https://github.com/guard/guard))
+  - This **MAY** run the tests in a 'watch' mode (e.g. [Guard](https://github.com/guard/guard))
   - This **MAY** have optional arguments for running a specific test/file
 - `make setup`
   - Runs the setup for the project
