@@ -10,11 +10,11 @@ There is no organisation currently about how Small Group Comradros should be org
 
 ## Proposal
 
-Anyone interested in proposing a Small Group Comradro **SHOULD** post their idea as a ticket in the Upcoming column of [the Trello Board][sgc-trello] by lunchtime Friday on a Comradro week, assigning themselves to it.
+Anyone interested in proposing a Small Group Comradro **MUST** post their idea as a ticket in the Upcoming column of [the Trello Board][sgc-trello] by lunchtime Friday on a Comradro week, assigning themselves to it.
 
 Anyone interested in joining a Small Group Comradro **SHOULD** assign themselves to **ONE** proposal they're interested in by lunchtime Friday on a Comradro week.
 
-Proposals **SHOULD** be mentioned at the start of Learn Tech by each team, as people get used to the new format.
+Proposals **MUST** be made public, to give people the opportunity to join. For example on Slack, and mentioned at QT and Learn Tech.
 
 Anyone who has proposed or joined a Small Group Comradro **SHOULD** break at 3:30PM on a Comradro week to join, and **MUST** return at 4:30PM.
 
