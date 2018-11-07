@@ -6,7 +6,7 @@ Guidelines for slack channel naming conventions building on [Slack's own guideli
 
 ## Problem
 
-There is no standard naming convention for Slack channel names and as we grow they become harder to discover. It's difficult to understand whether a channel is for discussion on topics or with teams. For example some SRE questions go into #live-services, some into #help, #engineering and even into #announcements.
+As we grow, it's harder to discover what sorts of things we're talking about. I'd like to know which teams we have, and what sorts of tech topics we're interested in, but I don't want to have to maintain a spreadsheet when our chat rooms already reflect this.
 
 ## Proposal
 
