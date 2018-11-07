@@ -18,4 +18,4 @@ There is no standard naming convention for Slack channel names and as we grow th
 - You MUST prefix engineering topics with `#eng-`. For example, `#eng-k8s`, `#eng-react`, `#eng-tdd`.
 - You MUST prefix team channels with `#team-`. For example `#team-dmc`, `#team-sales`, `#team-people`, `#team-homes`, `#team-sre`.
 - You MUST prefix project channel with `#proj-`. For example `#proj-dmc-watg`, `#proj-homes-hif`, `#proj-productionisation`.
-- You MUST prefix collaboration channels with `#collab-`. For example `#collab-dmc`, `#collab-khc`.
+- You MUST suffix collaboration channels with `-collab`. For example `#team-dmc-collab`, `#team-khc-collab`, `#eng-k8s-collab`, `#animals-collab`.
