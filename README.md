@@ -25,8 +25,16 @@ Standards RFCs shouldn’t be substantially altered after they are accepted, alt
 3. When the new RFC is accepted and the PR is merged, the old RFC will no longer be active.
 
 ## Managing Action Plans
+
 For RFCs where the outcome is an agreed Action Plan, you may want to update the RFC with meaningful status updates in new PRs. Once the plan is either complete or no longer relevant, it should be moved to the archived directory in a new PR.
+
+## Raising a concern with an RFC
+
+There is no definitive process for discussing an RFC before the above process has been started, or after it has finished. To faciliate this, an [Issue][Issues] may be created to discuss potential changes.
+This provides a central place to discuss RFCs without the need of creating a new RFC.
 
 ## Credit
 
 Inspiration for this repository, and the process it sets out was 100% drawn from [GOV.uk RFCs](https://github.com/alphagov/govuk-rfcs)
+
+Issues: [<https://github.com/madetech/rfcs/issues>]
