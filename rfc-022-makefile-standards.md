@@ -57,7 +57,7 @@ If the project runs in **Docker** - it **MUST** have the commands:
 ### Example Makefile
 
 ```make
-.PHONY: setup shell test serve docker-stop docker-down docker-build
+.PHONY: setup shell test serve lint lint-styling lint-complexity docker-stop docker-down docker-build
 
 setup: docker-build
 
@@ -69,6 +69,15 @@ serve: setup
 
 shell: setup
 	docker-compose run --rm web ash
+
+lint:
+  docker-compose run --rm web bundle exec rubocop
+
+lint-styling:
+  docker-compose run --rm web bundle exec rubocop --only Style,Layout,Lint
+
+lint-complexity:
+  docker-compose run --rm web bundle exec rubocop --except Style,Layout,Lint
 
 docker-build:
 	docker-compose build
