@@ -1,6 +1,6 @@
 # Makefile standards
 
-Superseded by RFC000.
+Superseded by RFC022.
 
 ## Summary
 
