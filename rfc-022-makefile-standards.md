@@ -71,13 +71,13 @@ shell: setup
 	docker-compose run --rm web ash
 
 lint:
-  docker-compose run --rm web bundle exec rubocop
+  docker-compose run --rm web bundle exec rubocop --parallel
 
 lint-styling:
-  docker-compose run --rm web bundle exec rubocop --only Style,Layout,Lint
+  docker-compose run --rm web bundle exec rubocop --only Style,Layout,Lint --parallel
 
 lint-complexity:
-  docker-compose run --rm web bundle exec rubocop --except Style,Layout,Lint
+  docker-compose run --rm web bundle exec rubocop --except Style,Layout,Lint --parallel
 
 docker-build:
 	docker-compose build
