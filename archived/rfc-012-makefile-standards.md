@@ -1,5 +1,7 @@
 # Makefile standards
 
+Superseded by RFC000.
+
 ## Summary
 
 A set of standards for Makefiles across all projects
@@ -32,7 +34,7 @@ All projects **MUST** have relevant [`PHONY` targets](https://www.gnu.org/softwa
   - E.g. Runs `docker-compose build`
 
 If the project is a **web application** it **MUST** have the commands:
-- `make serve` 
+- `make serve`
   - Runs the development version of the application, e.g. Running `docker-compose up`
 
 If the project is an application which needs compiling for deployment it **MUST** have the commands:
@@ -40,7 +42,7 @@ If the project is an application which needs compiling for deployment it **MUST*
   - Builds the application for production
 
 If the project runs in **Docker** - it **MUST** have the commands:
-- `make docker-build` 
+- `make docker-build`
   - Builds the Docker image for the project
 - `make docker-down`
   - Stops the running Docker containers for the project (e.g. `docker-compose down`)
@@ -70,4 +72,3 @@ test: docker-down docker-build
 serve: docker-down docker-build
 	docker-compose run --rm --service-ports web npm start
 ```
-
