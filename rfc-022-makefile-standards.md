@@ -40,9 +40,9 @@ If the project is a **web application** it **MUST** have the commands:
 - `make serve`
   - Runs the development version of the application, e.g. Running `docker-compose up`
 
-If the project is an application which needs compiling for deployment it **MUST** have the commands:
+If the project needs compiling for deployment it **MUST** have the commands:
 - `make build`
-  - Builds the application for production
+  - Builds the project for production
 
 If the project runs in **Docker** - it **MUST** have the commands:
 - `make docker-build`
