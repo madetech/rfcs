@@ -29,12 +29,6 @@ All targets specified in this RFC **MUST** appear above any additional targets i
 - `make lint`
   - Runs all the linting checks for the project
   - E.g. Runs `rubocop`
-- `make lint-styling`
-  - Runs style related linting checks for the project
-  - E.g. Runs `rubocop --only Style,Layout,Lint`
-- `make lint-complexity`
-  - Runs complexity metrics related linting checks for the project
-  - E.g. Runs `rubocop --except Style,Layout,Lint`
 
 If the project is a **web application** it **MUST** have the commands:
 - `make serve`
@@ -53,6 +47,15 @@ If the project runs in **Docker** - it **MUST** have the commands:
   - Removes the running Docker containers for the project (e.g. `docker-compose down`)
 - `make shell`
   - Starts a shell session on the Docker image for the project (e.g. `ash`/`bash`)
+
+If the project has linting violations - it **SHOULD** have the commands:
+
+- `make lint-styling`
+  - Runs style related linting checks for the project
+  - E.g. Runs `rubocop --only Style,Layout,Lint`
+- `make lint-complexity`
+  - Runs complexity metrics related linting checks for the project
+  - E.g. Runs `rubocop --except Style,Layout,Lint`
 
 ### Example Makefile
 
